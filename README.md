@@ -14,3 +14,27 @@ Projet pédagogique consistant à conteneuriser une application Node.js simple s
 
 ```bash
 docker build -t node_app:1.0 .
+
+Exécution du conteneur
+
+docker run -p 10001:8000 -d node_app:1.0
+
+
+Test
+
+Ouvrez :
+http://localhost:10001
+
+ou :
+
+curl http://localhost:10001
+
+
+
+🛠️ Technologies
+
+Node.js
+
+Docker
+
+Linux / WSL
